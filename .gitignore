@@ -1,0 +1,17 @@
+commit_message.txt
+
+# All data which might be confidential.
+*.accdb
+*.laccdb
+*.xlsx
+*.csv
+*.png
+
+# QGIS directories
+layout_templates/
+map_data/
+
+# Other directories
+database/
+notes/
+spreadsheets/
