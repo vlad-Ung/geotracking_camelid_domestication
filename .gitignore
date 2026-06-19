@@ -6,6 +6,7 @@ commit_message.txt
 *.xlsx
 *.csv
 *.png
+*.qgz
 
 # QGIS directories
 layout_templates/
