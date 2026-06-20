@@ -1,7 +1,7 @@
 library(dplyr)
 library(openxlsx)
 
-data <- read.xlsx("database/1 Modern specimens Meas.xlsx")
+data <- read.xlsx("database/arch_ref_meas_for_preparation.xlsx")
 
 data <- data |>
   mutate(
@@ -11,4 +11,4 @@ data <- data |>
     )
   )
 
-write.xlsx(data, "database/modern_meas_cleaned.xlsx")
+write.xlsx(data, "database/arch_ref_meas_for_preparation.xlsx")

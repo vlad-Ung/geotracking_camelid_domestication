@@ -4,15 +4,37 @@ library(tidyr)
 library(missMDA)
 library(zoolog)
 
-# Read data.
-data <- read.xlsx("database/training_data_for_imputation.xlsx")
+file_name <- "database/arch_ref_meas"
+file_path <- paste0(file_name, "_for_imputation.xlsx")
 
-# Drop useless columns.
-data <- data |> 
-  dplyr::select(Species, Sex, Element, starts_with("Meas"))
+# Read data.
+data <- read.xlsx(file_path)
+
+colnames(data)[grep("Specimen", colnames(data))] <- "Specimen.ID"
+colnames(data)[grep("element", colnames(data))] <- "Element"
 
 # Standardize nomenclature.
 data <- StandardizeDataSet(data)
+
+# Determine if there is species or not in the dataset.
+# The species and sex separation is only relevant for fitting the LDA anyway.
+if ("Taxon" %in% colnames(data) && "Sex" %in% colnames(data)) {
+  selection <- c("Specimen.ID", "Taxon", "Sex", "Element")
+} else if ("Taxon" %in% colnames(data)) {
+  selection <- c("Specimen.ID", "Taxon", "Element")
+} else if ("Sex" %in% colnames(data)) {
+  selection <- c("Specimen.ID", "Sex", "Element")
+} else {
+  selection <- c("Specimen.ID", "Element")
+}
+
+# Drop useless columns. Species and sex are only relevant for model fitting.
+# When imputing data for predictions based on a fitted model only predictors are necessary.
+data <- data |>
+  dplyr::select(
+    all_of(selection),
+    starts_with("Meas")
+  )
 
 # Add unique row id because pivot_wider will complain that values
 # are are not separated by unique identifiers.
@@ -27,8 +49,14 @@ data <- data |>
     cols = starts_with("Meas"),
     names_to = "Meas",
     values_to = "Value"
-  ) |>
-  filter(!is.na(Sex)) # need to know sex to separate sexual dimorphism
+  )
+
+# Need to filter out sex only for fitting.
+# Need to know sex to separate sexual dimorphism.
+if ("Sex" %in% colnames(data)) {
+  data <- data |>
+    filter(!is.na(Sex))
+}
 
 # Get skeletal element names to iterate over.
 bones <- unique(data$Element)
@@ -43,7 +71,12 @@ for (i in seq_along(bones)) {
   # Make a subset of data for the current bone element.
   bone_element <- data |>
     filter(Element == bone) |>
-    dplyr::select(row_id, Taxon, Sex, Element, Meas, Value) |>
+    dplyr::select(
+      row_id,
+      all_of(selection),
+      Meas,
+      Value
+    ) |>
     pivot_wider(
       names_from = Meas,
       values_from = Value
@@ -66,7 +99,7 @@ for (i in seq_along(bones)) {
     }))
 
   # Have to skip if X has no values, bone element is useless.
-  if (ncol(X) == 0) {
+  if (ncol(X) == 0 || ncol(X) == 1) {
     message("Skipped ", bone, ": no usable measurements.")
     next
   }
@@ -86,7 +119,10 @@ for (i in seq_along(bones)) {
 
   # Recombine metadata with measurements.
   bone_element <- bone_element |>
-    dplyr::select(row_id, Taxon, Sex, Element) |>
+    dplyr::select(
+      row_id,
+      all_of(selection)
+    ) |>
     bind_cols(X)
 
   # Store result in results list.
@@ -100,19 +136,25 @@ results <- results[!sapply(results, is.null)]
 # Combine all results into one dataframe.
 data_new <- bind_rows(results)
 
-data_new$Taxon[grep("F2", data_new$Taxon)] <- "F2_hybrid"
+if ("Sex" %in% colnames(data_new)) {
+  data_new$Sex[data_new$Sex == "."] <- NA
 
-data_new$Sex[data_new$Sex == "."] <- NA
+  data_new <- data_new |>
+    filter(!is.na(Sex))
+}
 
-data_new <- data_new  |>
-  filter(!is.na(Sex))
+if ("Taxon" %in% colnames(data_new)) {
+  data_new$Taxon[grep("F2", data_new$Taxon)] <- "F2_hybrid"
+  data_new$Taxon[grep("F1", data_new$Taxon)] <- "F1_hybrid"
+  data_new$Taxon[grep("Dromedary", data_new$Taxon, fixed = TRUE)] <- "C. dromedarius"
+  data_new$Taxon[grep("Dromedary backcross", data_new$Taxon, fixed = TRUE)] <- "Dromedary_backcross"
+  data_new$Taxon <- gsub(". ", "_", data_new$Taxon)
 
-data_new$Taxon <- gsub(". ", "_", data_new$Taxon)
-
-data_new <- data_new |> 
-  mutate(Taxon = paste0(Taxon, "_", Sex))
-
-unique(data_new$Taxon)
+  if ("Sex" %in% colnames(data_new)){
+    data_new <- data_new |>
+      mutate(Taxon = paste0(Taxon, "_", Sex))
+  }
+}
 
 # Export
-readr::write_tsv(data_new, "modern_meas_imputed.csv")
+readr::write_tsv(data_new, paste0(file_name, "_imputed.csv"))
