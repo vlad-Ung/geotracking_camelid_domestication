@@ -4,12 +4,13 @@ library(tidyr)
 library(missMDA)
 library(zoolog)
 
-file_name <- "database/arch_ref_meas"
+file_name <- "database/training_data"
 file_path <- paste0(file_name, "_for_imputation.xlsx")
 
 # Read data.
 data <- read.xlsx(file_path)
 
+# Change relevant column names to something zoolog might better recognise
 colnames(data)[grep("Specimen", colnames(data))] <- "Specimen.ID"
 colnames(data)[grep("element", colnames(data))] <- "Element"
 
@@ -39,21 +40,13 @@ data <- data |>
 # Add unique row id because pivot_wider will complain that values
 # are are not separated by unique identifiers.
 data <- data |>
-  filter(!is.na(Element)) |>
-  mutate(row_id = row_number())
-
-# Convert measurements to long format so all invormation is in one
-# column to call it from.
-data <- data |>
-  pivot_longer(
-    cols = starts_with("Meas"),
-    names_to = "Meas",
-    values_to = "Value"
-  )
+  filter(!is.na(Element))
 
 # Need to filter out sex only for fitting.
 # Need to know sex to separate sexual dimorphism.
 if ("Sex" %in% colnames(data)) {
+  data$Sex[grep("^\\W+$", data$Sex)] <- NA
+
   data <- data |>
     filter(!is.na(Sex))
 }
@@ -63,29 +56,19 @@ bones <- unique(data$Element)
 
 # Store results in a list of lists for memmory efficiency
 # I could do a growing dataframe but it's more intensive.
-results <- vector("list", length(bones))
+results <- list()
 
-for (i in seq_along(bones)) {
-  bone <- bones[i] # onto the next bone element.
-
-  # Make a subset of data for the current bone element.
-  bone_element <- data |>
-    filter(Element == bone) |>
+for (bone in bones) {
+  bone_element <- data |> 
+    filter(Element == bone) |> 
     dplyr::select(
-      row_id,
       all_of(selection),
-      Meas,
-      Value
-    ) |>
-    pivot_wider(
-      names_from = Meas,
-      values_from = Value
+      starts_with("Meas")
     )
 
   # Extract measurements.
   X <- bone_element |>
-    dplyr::select(where(is.numeric)) |>
-    dplyr::select(-row_id)
+    dplyr::select(where(is.numeric))
 
   # Drop measurements with more than 50% missing values.
   X <- X |>
@@ -120,13 +103,12 @@ for (i in seq_along(bones)) {
   # Recombine metadata with measurements.
   bone_element <- bone_element |>
     dplyr::select(
-      row_id,
       all_of(selection)
     ) |>
     bind_cols(X)
 
   # Store result in results list.
-  results[[i]] <- bone_element
+  results[[bone]] <- bone_element
 
   message("Done for ", bone, "!")
 }
@@ -134,27 +116,26 @@ for (i in seq_along(bones)) {
 results <- results[!sapply(results, is.null)]
 
 # Combine all results into one dataframe.
-data_new <- bind_rows(results)
+new_data <- bind_rows(results)
 
-if ("Sex" %in% colnames(data_new)) {
-  data_new$Sex[data_new$Sex == "."] <- NA
+# This is only if the imputed data contains a "Taxon column" which
+# for training data it should.
+if ("Taxon" %in% colnames(new_data)) {
+  new_data$Taxon[grep("^\\W+$", new_data$Taxon)] <- NA
+  new_data <- new_data |>
+    filter(!is.na(Taxon))
+  new_data$Taxon[grep("hybrid", new_data$Taxon, ignore.case = TRUE)] <- "Hybrid"
+  new_data$Taxon[grep("backcross", new_data$Taxon, ignore.case = TRUE)] <- "Hybrid"
+  new_data$Taxon[grep("Dromedary", new_data$Taxon, ignore.case = TRUE)] <- "C. dromedarius"
 
-  data_new <- data_new |>
-    filter(!is.na(Sex))
-}
+  new_data$Taxon <- gsub("\\. ", "_", new_data$Taxon)
 
-if ("Taxon" %in% colnames(data_new)) {
-  data_new$Taxon[grep("F2", data_new$Taxon)] <- "F2_hybrid"
-  data_new$Taxon[grep("F1", data_new$Taxon)] <- "F1_hybrid"
-  data_new$Taxon[grep("Dromedary", data_new$Taxon, fixed = TRUE)] <- "C. dromedarius"
-  data_new$Taxon[grep("Dromedary backcross", data_new$Taxon, fixed = TRUE)] <- "Dromedary_backcross"
-  data_new$Taxon <- gsub(". ", "_", data_new$Taxon)
-
-  if ("Sex" %in% colnames(data_new)){
-    data_new <- data_new |>
+  # Again, an unnecesary conditioning because training data SHOULD have Sex determinations.
+  if ("Sex" %in% colnames(new_data)){
+    new_data <- new_data |>
       mutate(Taxon = paste0(Taxon, "_", Sex))
   }
 }
 
 # Export
-readr::write_tsv(data_new, paste0(file_name, "_imputed.csv"))
+readr::write_tsv(new_data, paste0(file_name, "_imputed.csv"))

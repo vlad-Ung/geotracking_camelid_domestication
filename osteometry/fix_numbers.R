@@ -1,7 +1,10 @@
 library(dplyr)
 library(openxlsx)
 
-data <- read.xlsx("database/arch_ref_meas_for_preparation.xlsx")
+file_name <- "arch_meas"
+file_path <- paste0("database/", file_name, "_for_imputation.xlsx")
+
+data <- read.xlsx(file_path)
 
 data <- data |>
   mutate(
@@ -11,4 +14,4 @@ data <- data |>
     )
   )
 
-write.xlsx(data, "database/arch_ref_meas_for_preparation.xlsx")
+write.xlsx(data, file_path)
