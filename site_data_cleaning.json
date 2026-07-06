@@ -1,0 +1,171 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "site",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Abodiacum-Epfach",
+          "Abodiacum/Epfach"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Abodiacum-Epfach"
+      },
+      {
+        "from": [
+          "Tac-Fovenypuszta",
+          "Tác-Fövenypuszta"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tac-Fovenypuszta"
+      },
+      {
+        "from": [
+          "Vindonissa-Windisch",
+          "Vindonissa/Windisch"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vindonissa-Windisch"
+      },
+      {
+        "from": [
+          "Vemania-Isny",
+          "Vemania/Isny"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vemania-Isny"
+      }
+    ],
+    "description": "Mass edit cells in column site"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "site",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Maopo Village M 21",
+          "Maopo Village M21"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Maopo Village M 21"
+      }
+    ],
+    "description": "Mass edit cells in column site"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "site",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Spirit Way of the Tomb of Prince Luijan",
+          "Spirit Way of the Tomb of Prince Lujian"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Spirit Way of the Tomb of Li Wenzhong"
+      },
+      {
+        "from": [
+          "Laowanzhuang Jin Tomb",
+          "Laowanzhung Jin Tomb"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Laowanzhuang Jin Tomb"
+      },
+      {
+        "from": [
+          "Augusta Vendelicum-Augsburg",
+          "Augusta Vindelicum/Augsburg"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Augusta Vendelicum-Augsburg"
+      },
+      {
+        "from": [
+          "Kompolt-Kister",
+          "Kompolt-Kistér, Barbaricum"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kompolt-Kister, Barbaricum"
+      }
+    ],
+    "description": "Mass edit cells in column site"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "site",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column site using expression value.trim()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "site",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mugharet-El-Emireh",
+          "Mugharet-et-Emireh Cave"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mugharet-et-Emireh Cave"
+      },
+      {
+        "from": [
+          "Jericho",
+          "Jericho Tell"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jericho"
+      },
+      {
+        "from": [
+          "Tomb of Lady Tang, consort of Prinx Xiang Li Dan of Anguo",
+          "Lady Tang, consort of Prince Xiang Li Dan of Anguo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tomb of Lady Tang, consort of Prinx Xiang Li Dan of Anguo"
+      }
+    ],
+    "description": "Mass edit cells in column site"
+  }
+]

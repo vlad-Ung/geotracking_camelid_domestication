@@ -1,0 +1,391 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "site",
+    "expression": "grel:value",
+    "edits": [
+      {
+        "from": [
+          "Abodiacum-Epfach",
+          "Abodiacum/Epfach"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Abodiacum-Epfach"
+      },
+      {
+        "from": [
+          "Tac-Fovenypuszta",
+          "Tác-Fövenypuszta"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tac-Fovenypuszta"
+      },
+      {
+        "from": [
+          "Vindonissa-Windisch",
+          "Vindonissa/Windisch"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vindonissa-Windisch"
+      },
+      {
+        "from": [
+          "Vemania-Isny",
+          "Vemania/Isny"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vemania-Isny"
+      }
+    ],
+    "description": "Mass edit cells in column site"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "site",
+    "expression": "grel:value",
+    "edits": [
+      {
+        "from": [
+          "Maopo Village M 21",
+          "Maopo Village M21"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Maopo Village M 21"
+      }
+    ],
+    "description": "Mass edit cells in column site"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "site",
+    "expression": "grel:value",
+    "edits": [
+      {
+        "from": [
+          "Spirit Way of the Tomb of Prince Luijan",
+          "Spirit Way of the Tomb of Prince Lujian"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Spirit Way of the Tomb of Li Wenzhong"
+      },
+      {
+        "from": [
+          "Laowanzhuang Jin Tomb",
+          "Laowanzhung Jin Tomb"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Laowanzhuang Jin Tomb"
+      },
+      {
+        "from": [
+          "Augusta Vendelicum-Augsburg",
+          "Augusta Vindelicum/Augsburg"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Augusta Vendelicum-Augsburg"
+      },
+      {
+        "from": [
+          "Kompolt-Kister",
+          "Kompolt-Kistér, Barbaricum"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kompolt-Kister, Barbaricum"
+      }
+    ],
+    "description": "Mass edit cells in column site"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "site",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column site using expression grel:value.trim()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "site",
+    "expression": "grel:value",
+    "edits": [
+      {
+        "from": [
+          "Mugharet-El-Emireh",
+          "Mugharet-et-Emireh Cave"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mugharet-et-Emireh Cave"
+      },
+      {
+        "from": [
+          "Jericho",
+          "Jericho Tell"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jericho"
+      },
+      {
+        "from": [
+          "Tomb of Lady Tang, consort of Prinx Xiang Li Dan of Anguo",
+          "Lady Tang, consort of Prince Xiang Li Dan of Anguo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tomb of Lady Tang, consort of Prinx Xiang Li Dan of Anguo"
+      }
+    ],
+    "description": "Mass edit cells in column site"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "site",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ajdovš?ina-Casta"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ajdovščina-Casta"
+      }
+    ],
+    "description": "Mass edit cells in column site"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "site",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Budaörs-Kamaraerdei-d?l?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Budaörs-Kamaraerdei-dűlő"
+      }
+    ],
+    "description": "Mass edit cells in column site"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "site",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Diósgy?r Castle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Diósgyőr Castle"
+      }
+    ],
+    "description": "Mass edit cells in column site"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "site",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Kavu?an Höyük"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kavuşan Höyük"
+      }
+    ],
+    "description": "Mass edit cells in column site"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "site",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tilbe?ar Höyük"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tilbeşar Höyük"
+      }
+    ],
+    "description": "Mass edit cells in column site"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "reference",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "B?l??escu, A., 2014. Camels in Romania. Anthropozoologica 49, 253–264. https://doi.org/10.5252/az2014n2a07"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bălăşescu, A., 2014. Camels in Romania. Anthropozoologica 49, 253–264. https://doi.org/10.5252/az2014n2a07"
+      }
+    ],
+    "description": "Mass edit cells in column reference"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "reference",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Çak?rlar, C., Berthon, R., 2014. Caravans, camel wrestling and cowrie shells: towards a social zooarchaeology of camel hybridization in anatolia and adjacent eegions. Anthropozoologica 49, 237–252. https://doi.org/10.5252/az2014n2a06"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Çakırlar, C., Berthon, R., 2014. Caravans, camel wrestling and cowrie shells: towards a social zooarchaeology of camel hybridization in anatolia and adjacent eegions. Anthropozoologica 49, 237–252. https://doi.org/10.5252/az2014n2a06"
+      }
+    ],
+    "description": "Mass edit cells in column reference"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "reference",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Daróczi-szabó, L., Daróczi-Szabó, M., Kovács, Z.E., K?rösi, A., Tugya, B., 2014. Recent camel finds from Hungary. Anthropozoologica 49, 265–280. https://doi.org/10.5252/az2014n2a08"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Daróczi-szabó, L., Daróczi-Szabó, M., Kovács, Z.E., Kőrösi, A., Tugya, B., 2014. Recent camel finds from Hungary. Anthropozoologica 49, 265–280. https://doi.org/10.5252/az2014n2a08"
+      }
+    ],
+    "description": "Mass edit cells in column reference"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "reference",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Lev-Tov, J.S.E., Porter, B.W., Routledge, B.E., 2011. Measuring Local Diversity in Early Iron Age Animal Economies: A View from Khirbat al-Mudayna al-?Aliya (Jordan). Bulletin of the American Schools of Oriental Research 361, 67–93. https://doi.org/10.5615/bullamerschoorie.361.0067"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lev-Tov, J.S.E., Porter, B.W., Routledge, B.E., 2011. Measuring Local Diversity in Early Iron Age Animal Economies: A View from Khirbat al-Mudayna al-ʿAliya (Jordan). Bulletin of the American Schools of Oriental Research 361, 67–93. https://doi.org/10.5615/bullamerschoorie.361.0067"
+      }
+    ],
+    "description": "Mass edit cells in column reference"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "reference",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Peters, J., Driesch, A.V.D., 1997. The two?humped camel ( Camelus bactrianus ): new light on its distribution, management and medical treatment in the past. Journal of Zoology 242, 651–679. https://doi.org/10.1111/j.1469-7998.1997.tb05819.x"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peters, J., Driesch, A.V.D., 1997. The two‐humped camel ( Camelus bactrianus ): new light on its distribution, management and medical treatment in the past. Journal of Zoology 242, 651–679. https://doi.org/10.1111/j.1469-7998.1997.tb05819.x"
+      }
+    ],
+    "description": "Mass edit cells in column reference"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "reference",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vukovi?-Bogdanovi?, S., Blaži?, S., 2014. Camels from Roman imperial sites in Serbia. Anthropozoologica 49, 281–295. https://doi.org/10.5252/az2014n2a09"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vuković-Bogdanović, S., Blažić, S., 2014. Camels from Roman imperial sites in Serbia. Anthropozoologica 49, 281–295. https://doi.org/10.5252/az2014n2a09"
+      }
+    ],
+    "description": "Mass edit cells in column reference"
+  }
+]
