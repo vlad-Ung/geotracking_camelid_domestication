@@ -14,5 +14,6 @@ map_data/
 
 # Other directories
 database/
+!databse/scripts
 notes/
 spreadsheets/
