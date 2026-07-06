@@ -9,11 +9,9 @@ commit_message.txt
 *.qgz
 
 # QGIS directories
-layout_templates/
-map_data/
+map_project/
 
-# Other directories
+# Other directories (keep size minimal)
 database/
-!database/scripts/
 notes/
 spreadsheets/
