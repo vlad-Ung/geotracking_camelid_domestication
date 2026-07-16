@@ -15,7 +15,7 @@ training_data <- read.csv(training_file_path, sep = "\t")
 new_data <- data.frame()
 
 # Read new data tables and merge them into one dataframe
-new_file_paths <- list.files("database/", "^arch.*\\.xlsx$", full.names = TRUE)
+new_file_paths <- list.files("database/", "^arch.*imputation\\.xlsx$", full.names = TRUE)
 
 for (path in new_file_paths){
   temp <- read.xlsx(path)
