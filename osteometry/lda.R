@@ -37,13 +37,13 @@ for (part in parts) {
     message(part, " has only one class present in the training data. Skipping...")
   }
 
-  # Check if there are classes appear a single time in the set and skip if yes.
-  # If a class appears only once, there is no group dispersion and it will
+  # Check if there are classes with a single observation in the set and skip if yes.
+  # If a class has only one observation, there is no group dispersion and it will
   # arcificially inflate accuracy.
   check <- set |> count(Taxon)
 
   if (any(check$n == 1)) {
-    message(part, " has at least a taxonomic class appearing only once. Skipping...")
+    message(part, " has at least a taxonomic class with only one observation. Skipping...")
     next
   }
 
@@ -53,7 +53,7 @@ for (part in parts) {
   # Group measurements by individulas for cross validation.
   # Leave one whole individual out for cross validation instead of one row out.
   # Because symmetrical elements from the same individual are basically clones.
-  # And not accounting for symmetri inflates the accuracy.
+  # And not accounting for symmetry inflates the accuracy.
   folds <- groupKFold(set$Specimen.ID, k = length(unique(set$Specimen.ID)))
 
   # This defines the cross-validation strategy which the model uses.
@@ -116,22 +116,22 @@ for (part in parts) {
 
 # Extract overall accuracies from matrices to one dataframe.
 matrix <- cbind(matrix, names(matrices))
-colnames(matrix)[colnames(matrix) == "names(matrices)"] <- "part"
+colnames(matrix)[colnames(matrix) == "names(matrices)"] <- "Element"
 rownames(matrix) <- seq(1, length(names(matrices)))
 
 # Need part variable as factor for reordering.
-matrix$part <- as.factor(matrix$part)
+matrix$Element <- as.factor(matrix$Element)
 
 # Need in long format for grouping in the plot.
 matrix_long <- matrix |>
-  dplyr::select(part, Accuracy, Kappa) |>
-  tidyr::pivot_longer(-part, names_to = "metric", values_to = "value")
+  dplyr::select(Element, Accuracy, Kappa) |>
+  tidyr::pivot_longer(-Element, names_to = "metric", values_to = "value")
 
 # Plot accuracy distribution per skeletal part.
 p <- ggplot(
   matrix_long,
   aes(
-    forcats::fct_reorder(part, value, .desc = TRUE),
+    forcats::fct_reorder(Element, value, .desc = TRUE),
     value,
     color = metric,
     group = metric
@@ -160,45 +160,45 @@ fitted_parts <- names(models)
 
 # For predictions.
 message("\nMoving to predictions...\n")
-new_data <- read.csv("database/arch_data_imputed.csv", sep = "\t")
+arch_data <- read.csv("database/arch_data_imputed.csv", sep = "\t")
 
 # Initialise empty results list.
 pred_results <- list()
 
 # What skeletal elements are in the prediction data?
-new_data_parts <- unique(new_data$Element)
+arch_data_elements <- unique(arch_data$Element)
 
 # What elements are in the prediction data and not in the training data?
-difference <- new_data_parts[!(new_data_parts %in% fitted_parts)]
+difference <- arch_data_elements[!(arch_data_elements %in% fitted_parts)]
 message(length(difference), " elements are missing from the available models.\n")
 
 if (length(difference) != 0) {
   message("Excluding them from the predictions dataset...\n")
 
   # Predictions can only be made on parts wich had an LDA fitted.
-  new_data <- new_data |>
+  arch_data <- arch_data |>
     filter(Element %in% fitted_parts)
 
   # Also update new_data_parts
-  new_data_parts <- unique(new_data$Element)
+  arch_data_elements <- unique(arch_data$Element)
 } else {
   message("No exclusion needed. Making predictions...\n")
 }
 
 # Check if all elements in the prediction data are in the trained set.
-if (all(new_data$Element %in% fitted_parts)) {
-  for (part in new_data_parts) {
-    set <- new_data |>
-      dplyr::filter(Element == part) |>
+if (all(arch_data$Element %in% fitted_parts)) {
+  for (element in arch_data_elements) {
+    set <- arch_data |>
+      dplyr::filter(Element == element) |>
       dplyr::select(where(~ !all(is.na(.x))))
 
-    prediction <- predict(models[[part]], newdata = set[, -c(1, 2)])
+    prediction <- predict(models[[element]], newdata = set[, -c(1, 2)])
 
     set <- set |>
       mutate(Taxon = prediction)
 
-    pred_results[[part]] <- set
-    message("Predictions done for ", part, "!")
+    pred_results[[element]] <- set
+    message("Predictions done for ", element, "!")
   }
 
 
@@ -208,38 +208,50 @@ if (all(new_data$Element %in% fitted_parts)) {
   # They're still accounted for in the model's accuracy metrics.
   predictions$Taxon <- gsub("_(M|F)$", "", predictions$Taxon)
 
-  # Count how many times a taxon has been predicted for a specimen.
-  taxon_counts <- predictions |>
-    count(Specimen.ID, Taxon)
+  # Count how many times a taxon has been predicted for a specimen, for an element.
+  taxon_element_counts <- predictions |>
+    summarise(n = n(), .by = c(Specimen.ID, Element, Taxon))
 
+  # Add the accuracy metrics calculated for each element during LDA fitting.
+  taxon_element_counts <- taxon_element_counts |> 
+    dplyr::left_join(matrix, by = join_by(Element)) |> 
+    dplyr::select(Specimen.ID, Element, Taxon, Kappa, n) #|> 
+    #dplyr::mutate(Kappa = pmax(Kappa, 0)) # normalised negative kappa to 0 to prevent substracting from the final score
+
+  # Calculated the weighted sum of taxon counts adjusted by corresponding element Kappa.
+  taxon_counts <- taxon_element_counts |> 
+    summarise(weighted_sum = sum(n * Kappa), .by = c(Specimen.ID, Taxon))
+
+  # Grouping important for factor reordering.
   taxon_counts$Specimen.ID <- as.factor(taxon_counts$Specimen.ID)
 
   g <- ggplot(
     taxon_counts,
     aes(
-      forcats::fct_reorder(Specimen.ID, n, .desc = TRUE),
-      n,
+      forcats::fct_reorder(Specimen.ID, weighted_sum, .desc = TRUE),
+      weighted_sum,
       fill = Taxon
     )
   ) +
     geom_col(position = "stack") +
     labs(
       x = "",
-      y = "Frequency of predicted taxon",
+      y = "Weighted sum of frequency counts",
       fill = "Taxon",
       title = "Taxon predictions per specimen across skeletal elements"
     ) +
     theme_minimal() +
     theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 1, size = 4))
-  ggsave("number_of_predictions_per_specimen.png", plot = g, width = 13.5, height = 8, units = "in")
+  ggsave("number_of_predictions_per_specimen_weighted_sum.png", plot = g, width = 13.5, height = 8, units = "in")
 
+  # Pick the final taxon prediction based on the largest weighted sum.
   final_pred <- taxon_counts |> 
     group_by(Specimen.ID) |> 
-    filter(n == max(n))
+    filter(weighted_sum == max(weighted_sum))
 
-  length(unique(final_pred$Specimen.ID))
+  print(length(unique(final_pred$Specimen.ID)))
 
-  readr::write_tsv(final_pred, "database/predictions.csv")
+  readr::write_tsv(final_pred, "database/predictions_weighted_sum.csv")
 
 } else {
   message("\nThere are elements in the predictions dataset for which no LDA has been trained.\n")
