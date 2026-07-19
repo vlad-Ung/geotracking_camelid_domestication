@@ -2,10 +2,11 @@ library(dplyr)
 library(openxlsx)
 
 # Change file paths according to which dataset the numbers must be fixed for.
-file_name <- "arch_meas"
-file_path <- paste0("database/", file_name, "_for_imputation.xlsx")
+file_name <- "1_archaeological_reference_meas"
+input_file_path <- paste0("database/", file_name, "_cleaned.xlsx")
+output_file_path <- paste0("database/", file_name, "_numbers_fixed.xlsx")
 
-data <- read.xlsx(file_path)
+data <- read.xlsx(input_file_path)
 
 # Basically just make sure every "Meas" column is numeric after
 # replacing "," with "." in the numeric values.
@@ -18,4 +19,4 @@ data <- data |>
   )
 
 # And save them under the same file name.
-write.xlsx(data, file_path)
+write.xlsx(data, output_file_path)

@@ -14,14 +14,16 @@ training_data <- read.csv(training_file_path, sep = "\t")
 # Initialise empty new dataframe.
 new_data <- data.frame()
 
-# Read new data tables and merge them into one dataframe
-new_file_paths <- list.files("database/", "^arch.*imputation\\.xlsx$", full.names = TRUE)
+# # Read new data tables and merge them into one dataframe
+# new_file_paths <- list.files("database/", "^arch.*imputation\\.xlsx$", full.names = TRUE)
 
-for (path in new_file_paths){
-  temp <- read.xlsx(path)
-  new_data <- dplyr::bind_rows(new_data, temp)
-}
-rm(temp)
+# for (path in new_file_paths){
+#   temp <- read.xlsx(path)
+#   new_data <- dplyr::bind_rows(new_data, temp)
+# }
+# rm(temp)
+
+new_data <- read.xlsx("database/arch_data_for_imputation.xlsx")
 
 # Change colnames into something zoolog would recognize before standardization.
 colnames(new_data)[grep("Specimen", colnames(new_data))] <- "Specimen.ID"
@@ -38,7 +40,8 @@ new_data <- new_data |>
   dplyr::select(
     all_of(selection),
     starts_with("Meas")
-  )
+  ) |> 
+  mutate(across(starts_with("Meas"), as.numeric))
 
 # Merge training and new data into one dataframe to make imputations
 # based on already imputed training data

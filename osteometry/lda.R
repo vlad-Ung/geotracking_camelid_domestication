@@ -5,7 +5,7 @@ library(zoolog)
 library(ggplot2)
 
 # Set seed for reproductibility
-set.seed(2026)
+set.seed(1234)
 training_data <- read.csv("database/training_data_imputed.csv", sep = "\t")
 
 # Select the skeletal element you want to compute the LDA for and
