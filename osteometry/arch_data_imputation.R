@@ -5,7 +5,7 @@ library(missMDA)
 library(zoolog)
 
 # Load IMPUTED training data.
-training_file_name <- "database/training_data"
+training_file_name <- "database/csv/training_data"
 training_file_path <- paste0(training_file_name, "_imputed.csv")
 
 # Read data.
@@ -23,7 +23,7 @@ new_data <- data.frame()
 # }
 # rm(temp)
 
-new_data <- read.xlsx("database/arch_data_for_imputation.xlsx")
+new_data <- read.xlsx("database/excel/arch_data_for_imputation.xlsx")
 
 # Change colnames into something zoolog would recognize before standardization.
 colnames(new_data)[grep("Specimen", colnames(new_data))] <- "Specimen.ID"
@@ -119,4 +119,4 @@ new_data <- new_data |>
   filter(Specimen.ID %in% arch_ids)
 
 # Export
-readr::write_tsv(new_data, "database/arch_data_imputed.csv")
+readr::write_tsv(new_data, "database/csv/arch_data_imputed.csv")

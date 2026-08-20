@@ -1,0 +1,252 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Carpal Hamatum (os carpale IV)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hamatum"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 1 -Anterior?",
+          "Phalanx 1 Anterior"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 1 (A)"
+      },
+      {
+        "from": [
+          "Patella",
+          "Patella?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Patella"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 1A",
+          "Phalanx 1 (A)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 1 (A)"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx 2P",
+                "l": "Phalanx 2P"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1 Posterior",
+                "l": "Phalanx 1 Posterior"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 1 Posterior"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 1 (P)"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx 2P",
+                "l": "Phalanx 2P"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1 Posterior",
+                "l": "Phalanx 1 Posterior"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 1 Posterior"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 1 (P)"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx 2P",
+                "l": "Phalanx 2P"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1 Posterior",
+                "l": "Phalanx 1 Posterior"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 2P"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 2 (P)"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Os carpale quartum",
+          "Oc carpale quartum"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Os carpale quartum"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra thoracic"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Thoracal"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  }
+]

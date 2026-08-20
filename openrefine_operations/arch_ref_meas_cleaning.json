@@ -1,0 +1,5205 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "BM(NH) 673 A - left"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BM(NH) 673 A"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "BM(NH) 673 A - right"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BM(NH) 673 A"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "BM(NH) 673 A, left"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BM(NH) 673 A"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "BM(NH) 673 A, right"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BM(NH) 673 A"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "BM(NH) 673A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BM(NH) 673 A"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Bm(NH) 75.1989"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BM(NH) 75.1989"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "BM(NH) 75.1989 (left)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BM(NH) 75.1989"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "BM(NH)673 A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BM(NH) 673 A"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pella B - right",
+          "Pella B right",
+          "Pella B- right"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pella B"
+      },
+      {
+        "from": [
+          "oven / ?",
+          "Oven - ?",
+          "oven - ?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "oven / ?"
+      },
+      {
+        "from": [
+          "Pella G (?) - left lateral",
+          "Pella G - left lateral"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pella G"
+      },
+      {
+        "from": [
+          "Grave 18",
+          "Grave 18 / ?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grave 18"
+      },
+      {
+        "from": [
+          "Umm an-Nar 1014 KQ",
+          "Umm an-nar 1014 KQ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Umm an-Nar 1014 KQ"
+      },
+      {
+        "from": [
+          "Pella B - left",
+          "Pella B left"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pella B"
+      },
+      {
+        "from": [
+          "Pella F - right",
+          "Pella F right"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pella F"
+      },
+      {
+        "from": [
+          "Pella G - left",
+          "Pella G left"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pella G"
+      },
+      {
+        "from": [
+          "Pella B - left medial",
+          "Pella B - left medial?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pella B"
+      },
+      {
+        "from": [
+          "Pella F - left",
+          "Pella F left"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pella F"
+      },
+      {
+        "from": [
+          "Grave 24 / ?",
+          "Grave 24 /"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grave 24"
+      },
+      {
+        "from": [
+          "Pella G - right",
+          "Pella G right"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pella G"
+      },
+      {
+        "from": [
+          "oven fill / left",
+          "oven fill left"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "oven fill / left"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "P3711A",
+          "P3711 A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "P3711A"
+      },
+      {
+        "from": [
+          "BM(NH)75.2135",
+          "BM(NH) 75.2135"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BM(NH)75.2135"
+      },
+      {
+        "from": [
+          "BM(NH) 1947.10.21.5",
+          "BM(NH)1947.10.21.5"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BM(NH)1947.10.21.5"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cambridge, 14, 200-1",
+          "Cambridge 14,200-01"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cambridge, 14, 200-1"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen ID",
+          "expression": "value",
+          "columnName": "Specimen ID",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cambridge 14, 122",
+                "l": "Cambridge 14, 122"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14, 124",
+                "l": "Cambridge 14, 124"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,131",
+                "l": "Cambridge 14,131"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,125",
+                "l": "Cambridge 14,125"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,123",
+                "l": "Cambridge 14,123"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,200-I",
+                "l": "Cambridge 14,200-I"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge, 14, 200-1",
+                "l": "Cambridge, 14, 200-1"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,200",
+                "l": "Cambridge 14,200"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cambridge 14,200"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cambridge, 14, 200"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen ID",
+          "expression": "value",
+          "columnName": "Specimen ID",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cambridge 14, 122",
+                "l": "Cambridge 14, 122"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14, 124",
+                "l": "Cambridge 14, 124"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,131",
+                "l": "Cambridge 14,131"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,125",
+                "l": "Cambridge 14,125"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,123",
+                "l": "Cambridge 14,123"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,200-I",
+                "l": "Cambridge 14,200-I"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge, 14, 200-1",
+                "l": "Cambridge, 14, 200-1"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,200",
+                "l": "Cambridge 14,200"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cambridge, 14, 200-1"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cambridge, 14, 200-1"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen ID",
+          "expression": "value",
+          "columnName": "Specimen ID",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cambridge 14, 122",
+                "l": "Cambridge 14, 122"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14, 124",
+                "l": "Cambridge 14, 124"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,131",
+                "l": "Cambridge 14,131"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,125",
+                "l": "Cambridge 14,125"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,123",
+                "l": "Cambridge 14,123"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,200-I",
+                "l": "Cambridge 14,200-I"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge, 14, 200-1",
+                "l": "Cambridge, 14, 200-1"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,200",
+                "l": "Cambridge 14,200"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cambridge 14,131"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cambridge, 14, 131"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen ID",
+          "expression": "value",
+          "columnName": "Specimen ID",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cambridge 14, 122",
+                "l": "Cambridge 14, 122"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14, 124",
+                "l": "Cambridge 14, 124"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,125",
+                "l": "Cambridge 14,125"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,123",
+                "l": "Cambridge 14,123"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,200-I",
+                "l": "Cambridge 14,200-I"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge, 14, 200-1",
+                "l": "Cambridge, 14, 200-1"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,131",
+                "l": "Cambridge 14,131"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,200",
+                "l": "Cambridge 14,200"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cambridge 14,200-I"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cambridge, 14, 200-1"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen ID",
+          "expression": "value",
+          "columnName": "Specimen ID",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cambridge 14, 122",
+                "l": "Cambridge 14, 122"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14, 124",
+                "l": "Cambridge 14, 124"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,125",
+                "l": "Cambridge 14,125"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,123",
+                "l": "Cambridge 14,123"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge, 14, 200-1",
+                "l": "Cambridge, 14, 200-1"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,200-I",
+                "l": "Cambridge 14,200-I"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,131",
+                "l": "Cambridge 14,131"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,200",
+                "l": "Cambridge 14,200"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cambridge 14, 122"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cambridge, 14, 122"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen ID",
+          "expression": "value",
+          "columnName": "Specimen ID",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cambridge 14, 124",
+                "l": "Cambridge 14, 124"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,125",
+                "l": "Cambridge 14,125"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,123",
+                "l": "Cambridge 14,123"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge, 14, 200-1",
+                "l": "Cambridge, 14, 200-1"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14, 122",
+                "l": "Cambridge 14, 122"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,200-I",
+                "l": "Cambridge 14,200-I"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,131",
+                "l": "Cambridge 14,131"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,200",
+                "l": "Cambridge 14,200"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cambridge 14,123"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cambridge, 14, 123"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen ID",
+          "expression": "value",
+          "columnName": "Specimen ID",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cambridge 14, 124",
+                "l": "Cambridge 14, 124"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,125",
+                "l": "Cambridge 14,125"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge, 14, 200-1",
+                "l": "Cambridge, 14, 200-1"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,123",
+                "l": "Cambridge 14,123"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14, 122",
+                "l": "Cambridge 14, 122"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,200-I",
+                "l": "Cambridge 14,200-I"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,131",
+                "l": "Cambridge 14,131"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,200",
+                "l": "Cambridge 14,200"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cambridge 14,125"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cambridge, 14, 125"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen ID",
+          "expression": "value",
+          "columnName": "Specimen ID",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cambridge 14, 124",
+                "l": "Cambridge 14, 124"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge, 14, 200-1",
+                "l": "Cambridge, 14, 200-1"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,125",
+                "l": "Cambridge 14,125"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,123",
+                "l": "Cambridge 14,123"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14, 122",
+                "l": "Cambridge 14, 122"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,200-I",
+                "l": "Cambridge 14,200-I"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,131",
+                "l": "Cambridge 14,131"
+              }
+            },
+            {
+              "v": {
+                "v": "Cambridge 14,200",
+                "l": "Cambridge 14,200"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cambridge 14, 124"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cambridge, 14, 124"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen ID",
+          "expression": "value",
+          "columnName": "Specimen ID",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "BM(NH) 673 A",
+                "l": "BM(NH) 673 A"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH) 75.1989",
+                "l": "BM(NH) 75.1989"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH) 75.2123",
+                "l": "BM(NH) 75.2123"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH)75.2135",
+                "l": "BM(NH)75.2135"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH)74.1989",
+                "l": "BM(NH)74.1989"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH)1947.10.21.5",
+                "l": "BM(NH)1947.10.21.5"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH)1963:12.9.1",
+                "l": "BM(NH)1963:12.9.1"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH) 1978.46",
+                "l": "BM(NH) 1978.46"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "BM(NH) 75.1989"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BM(NH)75.1989"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen ID",
+          "expression": "value",
+          "columnName": "Specimen ID",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "BM(NH) 673 A",
+                "l": "BM(NH) 673 A"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH) 75.2123",
+                "l": "BM(NH) 75.2123"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH)75.2135",
+                "l": "BM(NH)75.2135"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH)74.1989",
+                "l": "BM(NH)74.1989"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH)1947.10.21.5",
+                "l": "BM(NH)1947.10.21.5"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH)1963:12.9.1",
+                "l": "BM(NH)1963:12.9.1"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH) 1978.46",
+                "l": "BM(NH) 1978.46"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH) 75.1989",
+                "l": "BM(NH) 75.1989"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "BM(NH) 673 A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BM(NH)673A"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen ID",
+          "expression": "value",
+          "columnName": "Specimen ID",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "BM(NH) 75.2123",
+                "l": "BM(NH) 75.2123"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH)75.2135",
+                "l": "BM(NH)75.2135"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH)74.1989",
+                "l": "BM(NH)74.1989"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH)1947.10.21.5",
+                "l": "BM(NH)1947.10.21.5"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH)1963:12.9.1",
+                "l": "BM(NH)1963:12.9.1"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH) 1978.46",
+                "l": "BM(NH) 1978.46"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH) 673 A",
+                "l": "BM(NH) 673 A"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH) 75.1989",
+                "l": "BM(NH) 75.1989"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "BM(NH) 1978.46"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BM(NH)1978.46"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen ID",
+          "expression": "value",
+          "columnName": "Specimen ID",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "BM(NH) 75.2123",
+                "l": "BM(NH) 75.2123"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH)75.2135",
+                "l": "BM(NH)75.2135"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH)74.1989",
+                "l": "BM(NH)74.1989"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH)1947.10.21.5",
+                "l": "BM(NH)1947.10.21.5"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH)1963:12.9.1",
+                "l": "BM(NH)1963:12.9.1"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH) 1978.46",
+                "l": "BM(NH) 1978.46"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH) 673 A",
+                "l": "BM(NH) 673 A"
+              }
+            },
+            {
+              "v": {
+                "v": "BM(NH) 75.1989",
+                "l": "BM(NH) 75.1989"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "BM(NH) 75.2123"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BM(NH)75.2123"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tall Seh Hamad/Dur-Katlimmu",
+          "Tall Seh Hamad/Dur-Katlimmu (85/6151/0039)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tall Seh Hamad/Dur-Katlimmu"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen ID",
+          "expression": "value",
+          "columnName": "Specimen ID",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pella B - right lateral",
+                "l": "Pella B - right lateral"
+              }
+            },
+            {
+              "v": {
+                "v": "Pella B - right medial",
+                "l": "Pella B - right medial"
+              }
+            },
+            {
+              "v": {
+                "v": "Pella F - right medial",
+                "l": "Pella F - right medial"
+              }
+            },
+            {
+              "v": {
+                "v": "Pella F - right lateral",
+                "l": "Pella F - right lateral"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pella B - right lateral"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pella B"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen ID",
+          "expression": "value",
+          "columnName": "Specimen ID",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pella B - right medial",
+                "l": "Pella B - right medial"
+              }
+            },
+            {
+              "v": {
+                "v": "Pella F - right medial",
+                "l": "Pella F - right medial"
+              }
+            },
+            {
+              "v": {
+                "v": "Pella F - right lateral",
+                "l": "Pella F - right lateral"
+              }
+            },
+            {
+              "v": {
+                "v": "Pella B - right lateral",
+                "l": "Pella B - right lateral"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pella F - right lateral"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pella F"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen ID",
+          "expression": "value",
+          "columnName": "Specimen ID",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pella B - right medial",
+                "l": "Pella B - right medial"
+              }
+            },
+            {
+              "v": {
+                "v": "Pella F - right medial",
+                "l": "Pella F - right medial"
+              }
+            },
+            {
+              "v": {
+                "v": "Pella F - right lateral",
+                "l": "Pella F - right lateral"
+              }
+            },
+            {
+              "v": {
+                "v": "Pella B - right lateral",
+                "l": "Pella B - right lateral"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pella B - right medial"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pella B"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen ID",
+          "expression": "value",
+          "columnName": "Specimen ID",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pella F - right medial",
+                "l": "Pella F - right medial"
+              }
+            },
+            {
+              "v": {
+                "v": "Pella B - right medial",
+                "l": "Pella B - right medial"
+              }
+            },
+            {
+              "v": {
+                "v": "Pella F - right lateral",
+                "l": "Pella F - right lateral"
+              }
+            },
+            {
+              "v": {
+                "v": "Pella B - right lateral",
+                "l": "Pella B - right lateral"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pella F - right medial"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pella F"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen ID",
+          "expression": "value",
+          "columnName": "Specimen ID",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pella B - left lateral",
+                "l": "Pella B - left lateral"
+              }
+            },
+            {
+              "v": {
+                "v": "Pella F - left medial",
+                "l": "Pella F - left medial"
+              }
+            },
+            {
+              "v": {
+                "v": "Pella F - left lateral",
+                "l": "Pella F - left lateral"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pella B - left lateral"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pella B"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen ID",
+          "expression": "value",
+          "columnName": "Specimen ID",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pella F - left medial",
+                "l": "Pella F - left medial"
+              }
+            },
+            {
+              "v": {
+                "v": "Pella F - left lateral",
+                "l": "Pella F - left lateral"
+              }
+            },
+            {
+              "v": {
+                "v": "Pella B - left lateral",
+                "l": "Pella B - left lateral"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pella F - left lateral"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pella F"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen ID",
+          "expression": "value",
+          "columnName": "Specimen ID",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pella F - left medial",
+                "l": "Pella F - left medial"
+              }
+            },
+            {
+              "v": {
+                "v": "Pella F - left lateral",
+                "l": "Pella F - left lateral"
+              }
+            },
+            {
+              "v": {
+                "v": "Pella B - left lateral",
+                "l": "Pella B - left lateral"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pella F - left medial"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pella F"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pella G - right lateral",
+          "Pella G - right medial"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pella G"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen ID",
+          "expression": "value",
+          "columnName": "Specimen ID",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pella A - left medial",
+                "l": "Pella A - left medial"
+              }
+            },
+            {
+              "v": {
+                "v": "Pella G - left medial",
+                "l": "Pella G - left medial"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pella A - left medial"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pella A"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen ID",
+          "expression": "value",
+          "columnName": "Specimen ID",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pella G - left medial",
+                "l": "Pella G - left medial"
+              }
+            },
+            {
+              "v": {
+                "v": "Pella A - left medial",
+                "l": "Pella A - left medial"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pella G - left medial"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pella G"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Gr24 / left lateral"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grave 24"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Gr1 / right medial"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grave 1"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Gr24 / left medial"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grave 24"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Gr4 / left medial"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grave 4"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Gr4 / right lateral"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grave 4"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Grave 1 / left"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grave 1"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Grave 1 / right"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grave 1"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Grave 12 / left"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grave 12"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Grave 13 / left"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grave 13"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Grave 14 / right"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grave 14"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Grave 16 / left"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grave 16"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Grave 18 / right"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grave 18"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Grave 22 / left"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grave 22"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Grave 4 / ?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grave 4"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Grave 4 / left"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grave 4"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Grave 4 / right"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grave 4"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "oven / ?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "oven"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "oven / left"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "oven"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "oven fill / ?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "oven fill"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "oven fill / left"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "oven fill"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "oven fill / right"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "oven fill"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pella A - left"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pella A"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pella A - left lateral"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pella A"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pella A - right"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pella A"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pella A - right lateral"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pella A"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen ID",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pella G righ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pella G"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen ID"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 1-A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 1 (A)"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vertebra thoracalis 9",
+                "l": "Vertebra thoracalis 9"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 7",
+                "l": "Vertebra thoracalis 7"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 8",
+                "l": "Vertebra thoracalis 8"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 5",
+                "l": "Vertebra thoracalis 5"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 6",
+                "l": "Vertebra thoracalis 6"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 3",
+                "l": "Vertebra thoracalis 3"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 4",
+                "l": "Vertebra thoracalis 4"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 1",
+                "l": "Vertebra thoracalis 1"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 2",
+                "l": "Vertebra thoracalis 2"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 10",
+                "l": "Vertebra thoracalis 10"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 11",
+                "l": "Vertebra thoracalis 11"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 12",
+                "l": "Vertebra thoracalis 12"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra thoracalis 1"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Thoracal 1"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vertebra thoracalis 9",
+                "l": "Vertebra thoracalis 9"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 7",
+                "l": "Vertebra thoracalis 7"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 8",
+                "l": "Vertebra thoracalis 8"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 5",
+                "l": "Vertebra thoracalis 5"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 6",
+                "l": "Vertebra thoracalis 6"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 3",
+                "l": "Vertebra thoracalis 3"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 4",
+                "l": "Vertebra thoracalis 4"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 2",
+                "l": "Vertebra thoracalis 2"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 10",
+                "l": "Vertebra thoracalis 10"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 11",
+                "l": "Vertebra thoracalis 11"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 12",
+                "l": "Vertebra thoracalis 12"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 1",
+                "l": "Vertebra thoracalis 1"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra thoracalis 2"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Thoracal 2"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vertebra thoracalis 9",
+                "l": "Vertebra thoracalis 9"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 7",
+                "l": "Vertebra thoracalis 7"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 8",
+                "l": "Vertebra thoracalis 8"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 5",
+                "l": "Vertebra thoracalis 5"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 6",
+                "l": "Vertebra thoracalis 6"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 3",
+                "l": "Vertebra thoracalis 3"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 4",
+                "l": "Vertebra thoracalis 4"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 10",
+                "l": "Vertebra thoracalis 10"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 11",
+                "l": "Vertebra thoracalis 11"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 12",
+                "l": "Vertebra thoracalis 12"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 2",
+                "l": "Vertebra thoracalis 2"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 1",
+                "l": "Vertebra thoracalis 1"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra thoracalis 3"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Thoracal 3"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vertebra thoracalis 9",
+                "l": "Vertebra thoracalis 9"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 7",
+                "l": "Vertebra thoracalis 7"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 8",
+                "l": "Vertebra thoracalis 8"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 5",
+                "l": "Vertebra thoracalis 5"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 6",
+                "l": "Vertebra thoracalis 6"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 4",
+                "l": "Vertebra thoracalis 4"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 10",
+                "l": "Vertebra thoracalis 10"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 11",
+                "l": "Vertebra thoracalis 11"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 12",
+                "l": "Vertebra thoracalis 12"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 3",
+                "l": "Vertebra thoracalis 3"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 2",
+                "l": "Vertebra thoracalis 2"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 1",
+                "l": "Vertebra thoracalis 1"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra thoracalis 4"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Thoracal 4"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vertebra thoracalis 9",
+                "l": "Vertebra thoracalis 9"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 7",
+                "l": "Vertebra thoracalis 7"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 8",
+                "l": "Vertebra thoracalis 8"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 5",
+                "l": "Vertebra thoracalis 5"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 6",
+                "l": "Vertebra thoracalis 6"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 10",
+                "l": "Vertebra thoracalis 10"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 11",
+                "l": "Vertebra thoracalis 11"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 12",
+                "l": "Vertebra thoracalis 12"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 4",
+                "l": "Vertebra thoracalis 4"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 3",
+                "l": "Vertebra thoracalis 3"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 2",
+                "l": "Vertebra thoracalis 2"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 1",
+                "l": "Vertebra thoracalis 1"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra thoracalis 5"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Thoracal 5"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vertebra thoracalis 9",
+                "l": "Vertebra thoracalis 9"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 7",
+                "l": "Vertebra thoracalis 7"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 8",
+                "l": "Vertebra thoracalis 8"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 6",
+                "l": "Vertebra thoracalis 6"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 10",
+                "l": "Vertebra thoracalis 10"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 11",
+                "l": "Vertebra thoracalis 11"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 12",
+                "l": "Vertebra thoracalis 12"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 5",
+                "l": "Vertebra thoracalis 5"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 4",
+                "l": "Vertebra thoracalis 4"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 3",
+                "l": "Vertebra thoracalis 3"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 2",
+                "l": "Vertebra thoracalis 2"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 1",
+                "l": "Vertebra thoracalis 1"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra thoracalis 6"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Thoracal 6"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vertebra thoracalis 9",
+                "l": "Vertebra thoracalis 9"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 7",
+                "l": "Vertebra thoracalis 7"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 8",
+                "l": "Vertebra thoracalis 8"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 10",
+                "l": "Vertebra thoracalis 10"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 11",
+                "l": "Vertebra thoracalis 11"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 12",
+                "l": "Vertebra thoracalis 12"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 6",
+                "l": "Vertebra thoracalis 6"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 5",
+                "l": "Vertebra thoracalis 5"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 4",
+                "l": "Vertebra thoracalis 4"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 3",
+                "l": "Vertebra thoracalis 3"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 2",
+                "l": "Vertebra thoracalis 2"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 1",
+                "l": "Vertebra thoracalis 1"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra thoracalis 7"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Thoracal 7"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vertebra thoracalis 9",
+                "l": "Vertebra thoracalis 9"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 8",
+                "l": "Vertebra thoracalis 8"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 10",
+                "l": "Vertebra thoracalis 10"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 11",
+                "l": "Vertebra thoracalis 11"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 12",
+                "l": "Vertebra thoracalis 12"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 7",
+                "l": "Vertebra thoracalis 7"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 6",
+                "l": "Vertebra thoracalis 6"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 5",
+                "l": "Vertebra thoracalis 5"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 4",
+                "l": "Vertebra thoracalis 4"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 3",
+                "l": "Vertebra thoracalis 3"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 2",
+                "l": "Vertebra thoracalis 2"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 1",
+                "l": "Vertebra thoracalis 1"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra thoracalis 8"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Thoracal 8"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vertebra thoracalis 9",
+                "l": "Vertebra thoracalis 9"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 10",
+                "l": "Vertebra thoracalis 10"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 11",
+                "l": "Vertebra thoracalis 11"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 12",
+                "l": "Vertebra thoracalis 12"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 8",
+                "l": "Vertebra thoracalis 8"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 7",
+                "l": "Vertebra thoracalis 7"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 6",
+                "l": "Vertebra thoracalis 6"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 5",
+                "l": "Vertebra thoracalis 5"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 4",
+                "l": "Vertebra thoracalis 4"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 3",
+                "l": "Vertebra thoracalis 3"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 2",
+                "l": "Vertebra thoracalis 2"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 1",
+                "l": "Vertebra thoracalis 1"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra thoracalis 9"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Thoracal 9"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vertebra thoracalis 10",
+                "l": "Vertebra thoracalis 10"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 11",
+                "l": "Vertebra thoracalis 11"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 12",
+                "l": "Vertebra thoracalis 12"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 9",
+                "l": "Vertebra thoracalis 9"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 8",
+                "l": "Vertebra thoracalis 8"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 7",
+                "l": "Vertebra thoracalis 7"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 6",
+                "l": "Vertebra thoracalis 6"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 5",
+                "l": "Vertebra thoracalis 5"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 4",
+                "l": "Vertebra thoracalis 4"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 3",
+                "l": "Vertebra thoracalis 3"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 2",
+                "l": "Vertebra thoracalis 2"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 1",
+                "l": "Vertebra thoracalis 1"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra thoracalis 10"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Thoracal 10"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vertebra thoracalis 11",
+                "l": "Vertebra thoracalis 11"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 12",
+                "l": "Vertebra thoracalis 12"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 10",
+                "l": "Vertebra thoracalis 10"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 9",
+                "l": "Vertebra thoracalis 9"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 8",
+                "l": "Vertebra thoracalis 8"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 7",
+                "l": "Vertebra thoracalis 7"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 6",
+                "l": "Vertebra thoracalis 6"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 5",
+                "l": "Vertebra thoracalis 5"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 4",
+                "l": "Vertebra thoracalis 4"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 3",
+                "l": "Vertebra thoracalis 3"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 2",
+                "l": "Vertebra thoracalis 2"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 1",
+                "l": "Vertebra thoracalis 1"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra thoracalis 11"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Thoracal 11"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vertebra thoracalis 12",
+                "l": "Vertebra thoracalis 12"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 11",
+                "l": "Vertebra thoracalis 11"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 10",
+                "l": "Vertebra thoracalis 10"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 9",
+                "l": "Vertebra thoracalis 9"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 8",
+                "l": "Vertebra thoracalis 8"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 7",
+                "l": "Vertebra thoracalis 7"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 6",
+                "l": "Vertebra thoracalis 6"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 5",
+                "l": "Vertebra thoracalis 5"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 4",
+                "l": "Vertebra thoracalis 4"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 3",
+                "l": "Vertebra thoracalis 3"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 2",
+                "l": "Vertebra thoracalis 2"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra thoracalis 1",
+                "l": "Vertebra thoracalis 1"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra thoracalis 12"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Thoracal 12"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vertebra lumbalis 6",
+                "l": "Vertebra lumbalis 6"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 7",
+                "l": "Vertebra lumbalis 7"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 4",
+                "l": "Vertebra lumbalis 4"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 5",
+                "l": "Vertebra lumbalis 5"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 2",
+                "l": "Vertebra lumbalis 2"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 3",
+                "l": "Vertebra lumbalis 3"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 1",
+                "l": "Vertebra lumbalis 1"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra lumbalis 1"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lumbar 1"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vertebra lumbalis 6",
+                "l": "Vertebra lumbalis 6"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 7",
+                "l": "Vertebra lumbalis 7"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 4",
+                "l": "Vertebra lumbalis 4"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 5",
+                "l": "Vertebra lumbalis 5"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 2",
+                "l": "Vertebra lumbalis 2"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 3",
+                "l": "Vertebra lumbalis 3"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 1",
+                "l": "Vertebra lumbalis 1"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra lumbalis 2"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lumbar 2"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vertebra lumbalis 6",
+                "l": "Vertebra lumbalis 6"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 7",
+                "l": "Vertebra lumbalis 7"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 4",
+                "l": "Vertebra lumbalis 4"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 5",
+                "l": "Vertebra lumbalis 5"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 3",
+                "l": "Vertebra lumbalis 3"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 2",
+                "l": "Vertebra lumbalis 2"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 1",
+                "l": "Vertebra lumbalis 1"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra lumbalis 3"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lumbar 3"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vertebra lumbalis 6",
+                "l": "Vertebra lumbalis 6"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 7",
+                "l": "Vertebra lumbalis 7"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 4",
+                "l": "Vertebra lumbalis 4"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 5",
+                "l": "Vertebra lumbalis 5"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 3",
+                "l": "Vertebra lumbalis 3"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 2",
+                "l": "Vertebra lumbalis 2"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 1",
+                "l": "Vertebra lumbalis 1"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra lumbalis 4"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lumbar 4"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vertebra lumbalis 6",
+                "l": "Vertebra lumbalis 6"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 7",
+                "l": "Vertebra lumbalis 7"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 5",
+                "l": "Vertebra lumbalis 5"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 4",
+                "l": "Vertebra lumbalis 4"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 3",
+                "l": "Vertebra lumbalis 3"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 2",
+                "l": "Vertebra lumbalis 2"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 1",
+                "l": "Vertebra lumbalis 1"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra lumbalis 5"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lumbar 5"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vertebra lumbalis 6",
+                "l": "Vertebra lumbalis 6"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 7",
+                "l": "Vertebra lumbalis 7"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 5",
+                "l": "Vertebra lumbalis 5"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 4",
+                "l": "Vertebra lumbalis 4"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 3",
+                "l": "Vertebra lumbalis 3"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 2",
+                "l": "Vertebra lumbalis 2"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 1",
+                "l": "Vertebra lumbalis 1"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra lumbalis 6"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lumbar 6"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vertebra lumbalis 7",
+                "l": "Vertebra lumbalis 7"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 6",
+                "l": "Vertebra lumbalis 6"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 5",
+                "l": "Vertebra lumbalis 5"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 4",
+                "l": "Vertebra lumbalis 4"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 3",
+                "l": "Vertebra lumbalis 3"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 2",
+                "l": "Vertebra lumbalis 2"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra lumbalis 1",
+                "l": "Vertebra lumbalis 1"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra lumbalis 7"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lumbar 7"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vertebra cervicalis 3",
+                "l": "Vertebra cervicalis 3"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra cervicalis 7",
+                "l": "Vertebra cervicalis 7"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra cervicalis 6",
+                "l": "Vertebra cervicalis 6"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra cervicalis 5",
+                "l": "Vertebra cervicalis 5"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra cervicalis 4",
+                "l": "Vertebra cervicalis 4"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra cervicalis 3"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cervical 3"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vertebra cervicalis 7",
+                "l": "Vertebra cervicalis 7"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra cervicalis 6",
+                "l": "Vertebra cervicalis 6"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra cervicalis 5",
+                "l": "Vertebra cervicalis 5"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra cervicalis 4",
+                "l": "Vertebra cervicalis 4"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra cervicalis 3",
+                "l": "Vertebra cervicalis 3"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cervical 4"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cervical 4"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vertebra cervicalis 7",
+                "l": "Vertebra cervicalis 7"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra cervicalis 6",
+                "l": "Vertebra cervicalis 6"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra cervicalis 5",
+                "l": "Vertebra cervicalis 5"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra cervicalis 4",
+                "l": "Vertebra cervicalis 4"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra cervicalis 3",
+                "l": "Vertebra cervicalis 3"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra cervicalis 5"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cervical 5"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vertebra cervicalis 7",
+                "l": "Vertebra cervicalis 7"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra cervicalis 6",
+                "l": "Vertebra cervicalis 6"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra cervicalis 5",
+                "l": "Vertebra cervicalis 5"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra cervicalis 4",
+                "l": "Vertebra cervicalis 4"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra cervicalis 3",
+                "l": "Vertebra cervicalis 3"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra cervicalis 6"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cervical 6"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vertebra cervicalis 7",
+                "l": "Vertebra cervicalis 7"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra cervicalis 6",
+                "l": "Vertebra cervicalis 6"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra cervicalis 5",
+                "l": "Vertebra cervicalis 5"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra cervicalis 4",
+                "l": "Vertebra cervicalis 4"
+              }
+            },
+            {
+              "v": {
+                "v": "Vertebra cervicalis 3",
+                "l": "Vertebra cervicalis 3"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra cervicalis 7"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cervical 7"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx-1",
+                "l": "Phalanx-1"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 2",
+                "l": "Phalanx 2"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1 (A)",
+                "l": "Phalanx 1 (A)"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 2-A",
+                "l": "Phalanx 2-A"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx-1"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 1"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx 2",
+                "l": "Phalanx 2"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1 (A)",
+                "l": "Phalanx 1 (A)"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 2-A",
+                "l": "Phalanx 2-A"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx-1",
+                "l": "Phalanx-1"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 2-A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 2 (A)"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx 2-M-P",
+                "l": "Phalanx 2-M-P"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1-M-P",
+                "l": "Phalanx 1-M-P"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 1 (M-P)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 1 (M-P)"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx 2-M-P",
+                "l": "Phalanx 2-M-P"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1-M-P",
+                "l": "Phalanx 1-M-P"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 1-M-P"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 1 (M-P)"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx 2-M-P",
+                "l": "Phalanx 2-M-P"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1-M-P",
+                "l": "Phalanx 1-M-P"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 2-M-P"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 2 (M-P)"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx 1-L-A",
+                "l": "Phalanx 1-L-A"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 2-L-A",
+                "l": "Phalanx 2-L-A"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 1-L-A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 1 (L-A)"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx 2-L-A",
+                "l": "Phalanx 2-L-A"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1-L-A",
+                "l": "Phalanx 1-L-A"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 2-L-A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 2 (L-A)"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx 2-M-A",
+                "l": "Phalanx 2-M-A"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1-M-A",
+                "l": "Phalanx 1-M-A"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 1-M-A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 1 (M-A)"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx 2-M-A",
+                "l": "Phalanx 2-M-A"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1-M-A",
+                "l": "Phalanx 1-M-A"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 2-M-A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 2 (M-A)"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx 1-P",
+                "l": "Phalanx 1-P"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 2-P",
+                "l": "Phalanx 2-P"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 1-P"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 1 (P)"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx 2-P",
+                "l": "Phalanx 2-P"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1-P",
+                "l": "Phalanx 1-P"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 2-P"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 2 (P)"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx 1-L-P",
+                "l": "Phalanx 1-L-P"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 2-L-P",
+                "l": "Phalanx 2-L-P"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 1-L-P"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 1 (L-P)"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Skeletal element",
+          "expression": "value",
+          "columnName": "Skeletal element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx 2-L-P",
+                "l": "Phalanx 2-L-P"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1-L-P",
+                "l": "Phalanx 1-L-P"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 2-L-P"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 2 (L-P)"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 1-L-A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 1 (L-A)"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Skeletal element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Radius-Ulna"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Radius + Ulna"
+      }
+    ],
+    "description": "Mass edit cells in column Skeletal element"
+  }
+]

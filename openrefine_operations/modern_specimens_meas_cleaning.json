@@ -1,0 +1,767 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Munich-Tulu",
+          "Munich-tulu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Munich-Tulu"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Munich-Tulu",
+          "Munich tulu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Munich-Tulu"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen number",
+          "expression": "value",
+          "columnName": "Specimen number",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ek4 a",
+                "l": "Ek4 a"
+              }
+            },
+            {
+              "v": {
+                "v": "Ek1",
+                "l": "Ek1"
+              }
+            },
+            {
+              "v": {
+                "v": "Ek3",
+                "l": "Ek3"
+              }
+            },
+            {
+              "v": {
+                "v": "Ek2",
+                "l": "Ek2"
+              }
+            },
+            {
+              "v": {
+                "v": "Ek5",
+                "l": "Ek5"
+              }
+            },
+            {
+              "v": {
+                "v": "Ek4",
+                "l": "Ek4"
+              }
+            },
+            {
+              "v": {
+                "v": "Ek3 (1)",
+                "l": "Ek3 (1)"
+              }
+            },
+            {
+              "v": {
+                "v": "Ek3 (2)",
+                "l": "Ek3 (2)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ek3 (1)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ek3"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen number",
+          "expression": "value",
+          "columnName": "Specimen number",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ek4 a",
+                "l": "Ek4 a"
+              }
+            },
+            {
+              "v": {
+                "v": "Ek1",
+                "l": "Ek1"
+              }
+            },
+            {
+              "v": {
+                "v": "Ek3",
+                "l": "Ek3"
+              }
+            },
+            {
+              "v": {
+                "v": "Ek2",
+                "l": "Ek2"
+              }
+            },
+            {
+              "v": {
+                "v": "Ek5",
+                "l": "Ek5"
+              }
+            },
+            {
+              "v": {
+                "v": "Ek4",
+                "l": "Ek4"
+              }
+            },
+            {
+              "v": {
+                "v": "Ek3 (2)",
+                "l": "Ek3 (2)"
+              }
+            },
+            {
+              "v": {
+                "v": "Ek3 (1)",
+                "l": "Ek3 (1)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ek3 (2)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ek3"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen number",
+          "expression": "value",
+          "columnName": "Specimen number",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ek4 a",
+                "l": "Ek4 a"
+              }
+            },
+            {
+              "v": {
+                "v": "Ek1",
+                "l": "Ek1"
+              }
+            },
+            {
+              "v": {
+                "v": "Ek3",
+                "l": "Ek3"
+              }
+            },
+            {
+              "v": {
+                "v": "Ek2",
+                "l": "Ek2"
+              }
+            },
+            {
+              "v": {
+                "v": "Ek5",
+                "l": "Ek5"
+              }
+            },
+            {
+              "v": {
+                "v": "Ek4",
+                "l": "Ek4"
+              }
+            },
+            {
+              "v": {
+                "v": "Ek3 (2)",
+                "l": "Ek3 (2)"
+              }
+            },
+            {
+              "v": {
+                "v": "Ek3 (1)",
+                "l": "Ek3 (1)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ek4 a"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ek4"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen number",
+          "expression": "value",
+          "columnName": "Specimen number",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ek4 b",
+                "l": "Ek4 b"
+              }
+            },
+            {
+              "v": {
+                "v": "Ek3 b",
+                "l": "Ek3 b"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ek4 b"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ek4"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Specimen number",
+          "expression": "value",
+          "columnName": "Specimen number",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ek3 b",
+                "l": "Ek3 b"
+              }
+            },
+            {
+              "v": {
+                "v": "Ek4 b",
+                "l": "Ek4 b"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ek3 b"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ek3"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 1-P",
+          "Phalanx 1-p"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx (1-P)"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Element",
+          "expression": "value",
+          "columnName": "Element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx 1 (M-A)",
+                "l": "Phalanx 1 (M-A)"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1-m",
+                "l": "Phalanx 1-m"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 2-m",
+                "l": "Phalanx 2-m"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 2 (M-A)",
+                "l": "Phalanx 2 (M-A)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 1-m"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 1 (M)"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Element",
+          "expression": "value",
+          "columnName": "Element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx 1 (M-A)",
+                "l": "Phalanx 1 (M-A)"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 2-m",
+                "l": "Phalanx 2-m"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 2 (M-A)",
+                "l": "Phalanx 2 (M-A)"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1-m",
+                "l": "Phalanx 1-m"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 2-m"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 2 (M)"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Element",
+          "expression": "value",
+          "columnName": "Element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx (1-P)",
+                "l": "Phalanx (1-P)"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 2-p",
+                "l": "Phalanx 2-p"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx (1-P)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 1 (P)"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Element",
+          "expression": "value",
+          "columnName": "Element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx 2-p",
+                "l": "Phalanx 2-p"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx (1-P)",
+                "l": "Phalanx (1-P)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 2-p"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 2 (P)"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Element",
+          "expression": "value",
+          "columnName": "Element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx Media",
+                "l": "Phalanx Media"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 2 (M)",
+                "l": "Phalanx 2 (M)"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1 (M-A)",
+                "l": "Phalanx 1 (M-A)"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 2 (M-P)",
+                "l": "Phalanx 2 (M-P)"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1 (M-P)",
+                "l": "Phalanx 1 (M-P)"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1 (M)",
+                "l": "Phalanx 1 (M)"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 2 (M-A)",
+                "l": "Phalanx 2 (M-A)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx Media"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx (M)"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Specimen number",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ek3 c"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ek3"
+      }
+    ],
+    "description": "Mass edit cells in column Specimen number"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Radioulnare"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Radius + Ulna"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 1-A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 1 (A)"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Os malleoloare-fibula"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Os malleolare-fibula"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  }
+]

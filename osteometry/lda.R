@@ -8,6 +8,8 @@ library(ggplot2)
 set.seed(1234)
 training_data <- read.csv("database/training_data_imputed.csv", sep = "\t")
 
+qqnorm(training_data$Meas12)
+
 # Select the skeletal element you want to compute the LDA for and
 # make a subset for it.
 parts <- unique(training_data$Element)

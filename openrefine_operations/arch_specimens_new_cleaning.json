@@ -1,0 +1,1108 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "???"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Calcaneum"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Calcaneus"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Calcaneus?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Calcaneus"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Carpal Hamatum (os carpale IV)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hamatum"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Carp"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Carpalia"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Carpalia?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Carpalia"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cost"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Costa"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Costae"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Costa"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cranial+petrous"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cranium"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Dens"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dentes"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Dens, Maxilla"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dens + Maxilla"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "femur"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Femur"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Femur?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Femur"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "humerus"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Humerus"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Humerus?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Humerus"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mand"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mandibula"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mandibula?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mandibula"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 1",
+          "phalanx 1",
+          "Phalanx 1?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 1"
+      },
+      {
+        "from": [
+          "Patella",
+          "Patella?",
+          "patella"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Patella"
+      },
+      {
+        "from": [
+          "Vertebra",
+          "Vertebra?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vertebra"
+      },
+      {
+        "from": [
+          "Rib",
+          "rib"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Costa"
+      },
+      {
+        "from": [
+          "Radius",
+          "Radius?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Radius"
+      },
+      {
+        "from": [
+          "Mepo",
+          "mepo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mepo"
+      },
+      {
+        "from": [
+          "Ulna",
+          "Ulna?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ulna"
+      },
+      {
+        "from": [
+          "Pelvis",
+          "pelvis"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pelvis"
+      },
+      {
+        "from": [
+          "Metapodium",
+          "Metapodium?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metapodium"
+      },
+      {
+        "from": [
+          "Tibia",
+          "Tibia?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tibia"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Element",
+          "expression": "value",
+          "columnName": "Element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx 2",
+                "l": "Phalanx 2"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1",
+                "l": "Phalanx 1"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 3?",
+                "l": "Phalanx 3?"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx",
+                "l": "Phalanx"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 2A",
+                "l": "Phalanx 2A"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1A",
+                "l": "Phalanx 1A"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 1A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 1 (A)"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Element",
+          "expression": "value",
+          "columnName": "Element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx 2",
+                "l": "Phalanx 2"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1",
+                "l": "Phalanx 1"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 3?",
+                "l": "Phalanx 3?"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx",
+                "l": "Phalanx"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 2A",
+                "l": "Phalanx 2A"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1A",
+                "l": "Phalanx 1A"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 2A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 2 (A)"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Element",
+          "expression": "value",
+          "columnName": "Element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx 2",
+                "l": "Phalanx 2"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1",
+                "l": "Phalanx 1"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 3?",
+                "l": "Phalanx 3?"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx",
+                "l": "Phalanx"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 2A",
+                "l": "Phalanx 2A"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1A",
+                "l": "Phalanx 1A"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 3?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 3"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Element",
+          "expression": "value",
+          "columnName": "Element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx 2post",
+                "l": "Phalanx 2post"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1 Posterior",
+                "l": "Phalanx 1 Posterior"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 1 Posterior"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 1 (P)"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Element",
+          "expression": "value",
+          "columnName": "Element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx 2post",
+                "l": "Phalanx 2post"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 1 Posterior",
+                "l": "Phalanx 1 Posterior"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 2post"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 2 (P)"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra",
+          "Vertebrae"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vertebra"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Element",
+          "expression": "value",
+          "columnName": "Element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phalanx 1 (P)",
+                "l": "Phalanx 1 (P)"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx proximal",
+                "l": "Phalanx proximal"
+              }
+            },
+            {
+              "v": {
+                "v": "Phalanx 2 (P)",
+                "l": "Phalanx 2 (P)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx proximal"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx (P)"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Os carpale quartum",
+          "Oc carpale quartum"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Os carpale quartum"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Element",
+          "expression": "value",
+          "columnName": "Element",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PH1",
+                "l": "PH1"
+              }
+            },
+            {
+              "v": {
+                "v": "",
+                "l": ""
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "PH1"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 1"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Dens + Maxilla"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dentes + Maxilla"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phalanx 2Anterior"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx 2 (A)"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Radius"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Radius + Ulna"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tars"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tarsalia"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tarsalia?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tarsalia"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mepo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metapodium"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Metapodium (mepo)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Metapodium"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Phal"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phalanx"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra cervicalis"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cervical"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Element",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vertebra thoracica"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Thoracal"
+      }
+    ],
+    "description": "Mass edit cells in column Element"
+  }
+]
