@@ -1,5 +1,7 @@
 commit_message.txt
 
+.vscode
+
 # All data which might be confidential.
 *.accdb
 *.laccdb
