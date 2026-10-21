@@ -1,9 +1,8 @@
 library(dplyr)
 
-data <- read.csv("map_project/site_data.csv")
+data <- read.csv("database/sites_cleaned.csv")
 
-data <- data[!duplicated(data), ]
+data <- data[!duplicated(data), ] |> 
+  na.omit()
 
-data <- data |> filter(!is.na(lat))
-
-write.csv(data, "map_project/site_data.csv")
+write.csv(data, "database/sites_cleaned.csv")

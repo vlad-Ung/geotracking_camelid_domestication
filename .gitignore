@@ -17,3 +17,4 @@ map_project/
 database/
 notes/
 spreadsheets/
+other_csv_manipulation_scripts/__pycache__

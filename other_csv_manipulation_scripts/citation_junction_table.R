@@ -2,12 +2,12 @@
 library(dplyr)
 
 # Load data.
-remains <- read.csv("database/literature_overview_camel-remains.csv")
+remains <- read.csv("database/camel_remains_cleaned.csv")
 sources <- read.csv("database/original_sources.csv")
 
 # Select only citations and reference columns.
 remains <- remains |>
-  select(id, secondary_source, reference)
+  select(id, source_other, reference)
 
 # Initialise empty list for junction output.
 junction <- list()
